@@ -12,6 +12,12 @@ def sum_nums(nums):
     # want you to use it. Please write this by hand.
 
     # YOUR CODE HERE
+    total = 0
+
+    for num in nums:
+        total = total + num
+
+    return total
 
 
 print("sum_nums returned", sum_nums([1, 2, 3, 4]))
